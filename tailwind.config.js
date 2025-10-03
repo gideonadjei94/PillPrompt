@@ -3,7 +3,17 @@ module.exports = {
   content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lato: "LatoRegular",
+        latoBold: "LatoBold",
+      },
+      colors: {
+        primary: "#4A154B",
+        secondary: "#16a34a",
+        accent: "#f59e0b",
+      },
+    },
   },
   plugins: [],
 };
